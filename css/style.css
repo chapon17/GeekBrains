@@ -1,7 +1,12 @@
+body {
+    width: 1280px;
+    margin: 0 auto;
+}
+
 .container {
     margin-left: auto;
     margin-right: auto;
-    width: 1280px;
+    width: 100%;
     font-family: arial;
 
 
@@ -83,7 +88,6 @@
     color: #445161;
     padding: 50px;
     clear: both;
-    /* overflow: hidden;  */
 }
 
 .about:after {
@@ -97,8 +101,6 @@
     font-size: 30px;
     line-height: 36px;
     font-weight: 400;
-    /* margin-top: 0px; */
-    /* margin-bottom: 20px; */
     margin: 0;
 }
 
@@ -110,12 +112,11 @@
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
-    /* padding-bottom: 25px; */
 }
 
-.about-img {
+.about-vid {
     float: right;
-    background-color: white;
+    background-color: #F5F5F5;
 }
 
 .dignity {
@@ -124,7 +125,6 @@
     padding: 50px;
     clear: both;
     box-sizing: border-box;
-    /* overflow: hidden; */
     display: flex;
     flex-wrap: wrap;
 
@@ -140,8 +140,8 @@
 .dignity-item {
     width: 100%;
     min-height: 30px;
+    padding: 0 0 0 31px;
     margin: 0 0 20px 0;
-    padding: 0 0 0 30px;
     box-sizing: border-box;
     font-size: 16px;
     line-height: 24px;
@@ -177,7 +177,7 @@
     position: absolute;
     top: 0;
     left: -30px;
-    
+
 }
 
 .dignity-item[open] .dignity-item-title:before {
@@ -191,6 +191,10 @@
     width: 100%;
     clear: both;
 
+}
+
+.dignity-item:last-child {
+    margin: 0;
 }
 
 .diginity-h2 {
@@ -214,7 +218,6 @@
 
 .diginity-list-item {
     width: 100%;
-    /*float: left;*/
     margin: 0px;
     list-style-position: outside;
     list-style: none;
@@ -268,8 +271,6 @@
 .screenshots-h2 {
     font-size: 30px;
     font-size: 30px;
-    /* margin-left: auto; */
-    /* margin-right: auto; */
     margin: 0 0 20px 0;
 }
 
@@ -412,7 +413,7 @@
 }
 
 .buy {
-    padding: 50px 50px 0px 50px;
+    padding: 50px;
 }
 
 .buy-content-btn {
@@ -441,8 +442,8 @@
     width: 25%;
     text-align: center;
     border-radius: 10px;
-    margin-bottom: 20px;
-    margin: 20px;
+    margin: 0 20px;
+    padding: 1px;
 
 }
 
@@ -458,11 +459,12 @@
     font-size: 40px;
     line-height: 30px;
     font-weight: 400;
-
     color: #445162;
     background-color: white;
-    padding: 20px 0px 20px 0px;
-    margin: 0px 2px 0px 2px;
+    padding: 20px 2px 20px 0px;
+    margin: 0 auto;
+    width: 98%;
+    display: block;
 
 }
 
@@ -484,19 +486,19 @@
 .contacts {
     margin-left: auto;
     margin-right: auto;
-    width: 1280px;
+    width: 100%;
     font-family: arial;
     background-color: #445162;
     color: white;
-    padding: 50px;
+    padding: 50px 0 0 0;
 }
 
 .contacts-h2 {
     font-size: 30px;
     font-size: 30px;
     text-align: center;
-    margin: 20px 0 20px 0;
-    padding-top: 20px;
+    margin: 0 0 20px 0;
+    padding: 0;
 
 }
 
@@ -506,14 +508,15 @@
 .contacts-form-inputext,
 .contacts-submit {
     border-radius: 10px;
-    margin: 10px;
-    padding: 10px;
+    margin: 0 0 10px 0;
+    padding: 0;
 }
 
 .contacts-form {
     display: flex;
     flex-direction: column;
     width: 45%;
+    margin: 0 50px 0 0;
 
 
 }
@@ -525,6 +528,7 @@
     line-height: 24px;
     font-weight: 400;
     font-style: normal;
+    padding: 5px;
 }
 
 .contacts-submit {
@@ -589,6 +593,15 @@
 
 .contacts-info-imgs {
     margin-top: 20px;
+    width: 240px;
+    height: 42;
+}
+
+.contacts-info-imgs-a {
+    width: 240px;
+    height: 42px;
+    background-image: url(../img/social_buttons.png);
+    display: block;
 }
 
 .contacts-bottom {
@@ -603,4 +616,24 @@
 .contacts {
     margin: auto;
     padding: 0;
+}
+
+.reviews-txt p {
+    margin: 0 0 5px 0;
+}
+
+.contacts-form {
+    margin: 0 50px 0 0;
+}
+
+.contacts-info-ul {
+    margin: 0 0 20px 0;
+}
+
+.contacts-info-ul li {
+    margin: 0 0 10px 0;
+}
+
+.contacts-info-ul li:last-child {
+    margin: 0;
 }
