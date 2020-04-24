@@ -637,3 +637,37 @@ body {
 .contacts-info-ul li:last-child {
     margin: 0;
 }
+
+.contacts input[type="text"]:hover,
+.contacts input[type="email"]:hover,
+.contacts textarea:hover {
+    background-color: gray;
+    color: white;
+    border-color: white;
+}
+
+.contacts input[type="text"]:hover::placeholder,
+.contacts input[type="email"]:hover::placeholder,
+.contacts textarea:hover::placeholder {
+    color: white;
+}
+
+.contacts input[type="submit"]:hover {
+    background-color: gray;
+    color: white;
+}
+
+.contacts input[type="submit"]:active {
+    background-color: #ffffff;
+    color: #445162;
+}
+
+.buy-content-btn:hover {
+    background-color: gray;
+    color: white;
+}
+
+.buy-content-btn:active {
+    background-color: #ffffff;
+    color: #445162;
+}
